@@ -1,3 +1,8 @@
+package ru_stqa_geometry;
+
+import ru_stqa_geometry.figures.Rectangle;
+import ru_stqa_geometry.figures.Square;
+
 public class Geometry {
     public static void main(String[] args) {
         Square.printSquareArea(7.0);
