@@ -14,7 +14,7 @@ public class Triangle {
     }
 
     public double getArea() {
-        double Per = (this.a + this.b + this.c) / 2;
+        double Per = getPerimetr() / 2;
         return Math.sqrt(Per * (Per - this.a) * (Per - this.b) * (Per - this.c));
     }
 }
